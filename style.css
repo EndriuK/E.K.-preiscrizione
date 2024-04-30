@@ -1,0 +1,76 @@
+body{
+    background-image: url("background.jpg");
+    background-size: 100%;
+}
+
+#contenitore {
+    width: 1500px;
+    height: 850px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.568);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 20px;
+}
+
+#logo {
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#titolo {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(16, 170, 16);
+    text-align: center;
+}
+
+
+#barra-verde {
+  height: 40px;
+  width: auto;
+  background-color: limegreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pulsanti-barra {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+#monopattino-gino {
+  height: 35px;
+  width: 270px;
+  background-color: orange;
+  border-radius: 5px;
+}
+
+#monopattino-mike {
+  height: 35px;
+  width: 500px;
+  background-color: rgb(15, 196, 15);
+  border-radius: 5px;
+}
+
+#monopattino-fede {
+  height: 35px;
+  width: 90px;
+  background-color: red;
+  border-radius: 5px;
+}
+
+span {
+ color: white;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-size: 20px;
+}
+
